@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script>
+    // Function to retrieve a query parameter from the URL
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    // Retrieve 'token' and 'style' (or 'gridStyle') from the URL
+    const token = getQueryParam('token');
+    let gridStyle = getQueryParam('style') || getQueryParam('gridStyle'); // Handle both 'style' and 'gridStyle'
+
+    // If a token is found, set it in localStorage
+    if (token) {
+      localStorage.setItem('token', token);
+      console.log('Token set in localStorage:', token);
+    } else {
+      console.log('No token found in URL.');
+    }
+
+    // Apply the conditional logic for gridStyle
+    if (gridStyle == '1') {
+      gridStyle = 'grid1';
+    }
+    if (gridStyle == '3') {
+      gridStyle = 'grid3';
+    }
+    if (gridStyle !== 'grid1' && gridStyle !== 'grid3') {
+      gridStyle = 'grid3'; // Default to grid3 if it's neither grid1 nor grid3
+    }
+
+    // If a gridStyle is found, set it in localStorage
+    if (gridStyle) {
+      localStorage.setItem('gridStyle', gridStyle);
+      console.log('Grid style set in localStorage:', gridStyle);
+    } else {
+      console.log('No grid style found in URL.');
+    }
+
+    // Redirect to another page after handling URL params
+    window.location.href = "https://msh-esp.github.io";
+</script>
+
+</html>
