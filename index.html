@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ESP Web Server</title>
+<title id="page-title">ESP Web Server</title>
 
 
 <style>
@@ -296,6 +296,13 @@ function NameSwitch1(value){
                     startIndex = responseText.indexOf("&Sw16=");
                     var Sw16 = responseText.substring(startIndex + 6);
                     
+                    startIndex = responseText.indexOf("&Title=");
+                    var Title = responseText.substring(startIndex + 7);
+                    
+                    document.getElementById("pagetitle").innerText = Title;
+                    
+                    document.getElementById("page-title").innerText = Title;
+                    
                     document.getElementById("led1").innerText = Sw1;
                     document.getElementById("led2").innerText = Sw2;
                     document.getElementById("led3").innerText = Sw3;
@@ -459,7 +466,7 @@ function toggleGridStyle() {
 
 </head>
 <body>
-    <h1>ESP Web Server</h1>
+    <h1 id="pagetitle">ESP Web Server</h1>
     <p id="result">Connecting...</p>
     
     <div class="led-container">
