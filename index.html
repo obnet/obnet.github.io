@@ -96,8 +96,8 @@ function checkLink() {
 function hitWebsite(value,buttonId) {
 
     var Pass = localStorage.getItem('Pass');
-    var LogPass = localStorage.getItem('LogPass');
-    
+
+
     if (Pass !== LogPass) {
         Pass = prompt("Enter Authorization Password :", "", Pass);
         localStorage.setItem("Pass", Pass);
@@ -337,6 +337,7 @@ function NameSwitch1(value){
 </script>
 
 <script>
+var LogPass = "";
 function NameSwitch2(value){
                     var responseText=value;
 					
@@ -408,10 +409,8 @@ function NameSwitch2(value){
                     var Sw32 = responseText.substring(startIndex + 6);
                     
                     startIndex = responseText.indexOf("&LogPass=");
-                    var LogPass = responseText.substring(startIndex + 9);
-                    
-                    localStorage.setItem("LogPass", LogPass);
-                    
+                    LogPass = responseText.substring(startIndex + 9);
+
                     document.getElementById("led17").innerText = Sw17;
                     document.getElementById("led18").innerText = Sw18;
                     document.getElementById("led19").innerText = Sw19;
