@@ -99,7 +99,7 @@ function hitWebsite(value,buttonId) {
     var LogPass = localStorage.getItem('LogPass');
     
     if (Pass !== LogPass) {
-        Pass = prompt("Enter Password :", "", Pass);
+        Pass = prompt("Enter Authorization Password :", "", Pass);
         localStorage.setItem("Pass", Pass);
         }
 
