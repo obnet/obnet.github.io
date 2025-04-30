@@ -77,8 +77,6 @@ function popup() {
 }
 </script>
 
-
-
 <script>
 var server = "sgp1";
 var token = localStorage.getItem("token") || "";
@@ -105,7 +103,7 @@ function hitWebsite(value,buttonId) {
         localStorage.setItem("Pass", Pass);
         }
 
-    else {
+    if (Pass === LogPass) {
     var url = "https://"+server+".blynk.cloud/external/api/update?token=" + token + "&v1=" + value;
     var lastGridStyle = localStorage.getItem('gridStyle');
     var button = document.getElementById(buttonId);
@@ -132,7 +130,6 @@ function hitWebsite(value,buttonId) {
         SitSwitch1();
         SitSwitch2();  }
         }
-
         
 </script>
 
