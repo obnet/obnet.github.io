@@ -309,7 +309,8 @@ function NameSwitch1(value){
                     var Sw15 = responseText.substring(startIndex + 6, endIndex);
                     
                     startIndex = responseText.indexOf("&Sw16=");
-                    var Sw16 = responseText.substring(startIndex + 6);
+	            endIndex = responseText.indexOf("&Title=");
+                    var Sw16 = responseText.substring(startIndex + 6, endIndex);
                     
                     startIndex = responseText.indexOf("&Title=");
                     var Title = responseText.substring(startIndex + 7);
@@ -406,7 +407,8 @@ function NameSwitch2(value){
                     var Sw31 = responseText.substring(startIndex + 6, endIndex);
                     
                     startIndex = responseText.indexOf("&Sw32=");
-                    var Sw32 = responseText.substring(startIndex + 6);
+	            endIndex = responseText.indexOf("&LogPass=");
+                    var Sw32 = responseText.substring(startIndex + 6, endIndex);
                     
                     startIndex = responseText.indexOf("&LogPass=");
                     LogPass = responseText.substring(startIndex + 9);
