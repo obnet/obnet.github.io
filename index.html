@@ -135,6 +135,7 @@ function hitWebsite(value,buttonId) {
 
 <script>
 function displayValue() {
+if (token !==""){
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -170,7 +171,7 @@ function displayValue() {
                         
                         
     xhttp.open("GET", "https://"+server+".blynk.cloud/external/api/get?token=" + token + "&v3", true);
-    xhttp.send();}
+    xhttp.send();}}
 </script>
 
 <script>
