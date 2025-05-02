@@ -135,7 +135,7 @@ function hitWebsite(value,buttonId) {
 
 <script>
 function displayValue() {
-if (token !==""){
+if (token !=="" && (Pass === LogPass || LogPass === "" )){
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
