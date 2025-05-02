@@ -132,13 +132,7 @@ function hitWebsite(value,buttonId) {
 
 <script>
 function displayValue() {
-var Pass = localStorage.getItem('Pass');
-    if (Pass !== LogPass && LogPass !== "" ) {
-        Pass = prompt("Enter Authorization Password :", "", Pass);
-        localStorage.setItem("Pass", Pass);
-        }
 
-    if (Pass === LogPass || LogPass === "" ) {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -174,7 +168,7 @@ var Pass = localStorage.getItem('Pass');
                         
                         
     xhttp.open("GET", "https://"+server+".blynk.cloud/external/api/get?token=" + token + "&v3", true);
-    xhttp.send();}}
+    xhttp.send();}
 </script>
 
 <script>
@@ -191,7 +185,13 @@ var Pass = localStorage.getItem('Pass');
 
 <script>
 function showButtons(arraySize) {
+    var Pass = localStorage.getItem('Pass');
+    if (Pass !== LogPass && LogPass !== "" ) {
+        Pass = prompt("Enter Authorization Password :", "", Pass);
+        localStorage.setItem("Pass", Pass);
+        }
 
+    if (Pass === LogPass || LogPass === "" ) {
     var lastGridStyle = localStorage.getItem('gridStyle');
     for (var i = 1; i <= arraySize; i++) {
         if (document.getElementById("led" + i).innerText =="")
@@ -205,7 +205,7 @@ function showButtons(arraySize) {
          document.getElementById("led" + i).style.borderRadius = "5px";
          }}
          for (var y = arraySize+1; y <= 32; y++) {document.getElementById("led" + y).style.display = "none";}
-        }
+        }}
 </script>
 
 
