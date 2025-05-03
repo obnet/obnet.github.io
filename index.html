@@ -65,15 +65,14 @@ function popup() {
   container.appendChild(snackbar);
 
   // Show the snackbar with animation
-  setTimeout(function() {
-    snackbar.className = "snackbar show";
-  }, 10); // Slight delay to trigger the animation
+  setTimeout(function() {    snackbar.className = "snackbar show";  }, 10); 
+  // Slight delay to trigger the animation
   
   // Hide the snackbar after 3 seconds
   setTimeout(function() {
     snackbar.className = "snackbar";
-    container.removeChild(snackbar);
-  }, 1500); // 3500ms to match the fade-out timing
+    container.removeChild(snackbar);  }, 1500); 
+    // 3500ms to match the fade-out timing
 }
 </script>
 
@@ -125,57 +124,66 @@ function hitWebsite(value,buttonId) {
  	    checkLink();
         checkArraySize();
         SitSwitch1();
-        SitSwitch2();  }
+        SitSwitch2();
+        buttonIDvalue = buttonID;
+        }
+
         }
         
 </script>
 
 
 <script>
-setInterval(function call () {
-    displayValue();
-}, 100);
-</script>
 
-<script>
-function displayValue() {
-
+function displayValue(buttonID) {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             if (this.responseText !== "0" && this.responseText !== "1") {
                 document.getElementById("value").innerText = "Value: " + this.responseText;
                 for (var i = 0; i < this.responseText.length; i++) {
+
+                    if ((i + 1) === buttonID) continue;  // Skip this button
+
                     var digit = this.responseText.charAt(i);
                     var buttonId = "led" + (i + 1);
                     var button = document.getElementById(buttonId);
-    				var lastGridStyle = localStorage.getItem('gridStyle');
+                    var lastGridStyle = localStorage.getItem('gridStyle');
                     var ledContainer = document.querySelector('.led-container');
-    				
-   			 if (lastGridStyle === 'grid1') {
-                    ledContainer.style.gridTemplateColumns = 'repeat(1, 1fr)';
-    				button.style.backgroundColor = "SteelBlue";
-    				button.style.width = "225px";
-    				button.style.fontSize = "19px";
-    				button.style.padding= "30px";
-                    ledContainer.style.gap= "35px";
-                    button.style.borderRadius = "5px";
-                    ledContainer.style.display= "inline-grid";}
-             else  { 
-                    button.style.padding= "17px"; 
-                    button.style.fontSize = ""; 
-                    button.style.width = ""; 
-                    button.style.padding= "";
-                    ledContainer.style.gap= "";
-                    button.style.borderRadius = "";
-                    ledContainer.style.display= "grid";
-                    if (digit === "0") {button.style.backgroundColor = "green";} 
-                        else if (digit === "1") {button.style.backgroundColor = "red";  } 
-                        else {button.style.backgroundColor = "SteelBlue"; }}}}}};
-                        
-                        
-    xhttp.open("GET", "https://"+server+".blynk.cloud/external/api/get?token=" + token + "&v3", true);
-    xhttp.send();}
+
+                    if (lastGridStyle === 'grid1') {
+                        ledContainer.style.gridTemplateColumns = 'repeat(1, 1fr)';
+                        button.style.backgroundColor = "SteelBlue";
+                        button.style.width = "225px";
+                        button.style.fontSize = "19px";
+                        button.style.padding = "30px";
+                        ledContainer.style.gap = "35px";
+                        button.style.borderRadius = "5px";
+                        ledContainer.style.display = "inline-grid";
+                    } else {
+                        button.style.padding = "17px";
+                        button.style.fontSize = "";
+                        button.style.width = "";
+                        ledContainer.style.gap = "";
+                        button.style.borderRadius = "";
+                        ledContainer.style.display = "grid";
+
+                        if (digit === "0") {
+                            button.style.backgroundColor = "green";
+                        } else if (digit === "1") {
+                            button.style.backgroundColor = "red";
+                        } else {
+                            button.style.backgroundColor = "SteelBlue";
+                        }
+                    }
+                }
+            }
+        }
+    };
+
+    xhttp.open("GET", "https://" + server + ".blynk.cloud/external/api/get?token=" + token + "&v3", true);
+    xhttp.send();
+}
 </script>
 
 <script>
