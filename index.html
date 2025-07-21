@@ -339,10 +339,10 @@ function NameSwitch1(value){
 
 		    startIndex = responseText.indexOf("&PN=");
 	            endIndex = responseText.indexOf("&FW=");
-                    var PN = responseText.substring(startIndex + 3, endIndex);
+                    var PN = responseText.substring(startIndex + 4, endIndex);
 	
                     startIndex = responseText.indexOf("&FW=");
-                    var FW = responseText.substring(startIndex + 3);
+                    var FW = responseText.substring(startIndex + 4);
                     
                     document.getElementById("pagetitle").innerText = Title;
                     document.getElementById("page-title").innerText = Title;
@@ -573,7 +573,7 @@ function toggleGridStyle() {
     <br><br>
     <button id="changeStyleButton">Change Style</button>
     <p id="value"></p>
-    <h5 id="PN"></h5>
-    <h5 id="FW"></h5>
+    <h7 id="PN"></h7>
+    <h7 id="FW"></h7>
 </body>
 </html>
