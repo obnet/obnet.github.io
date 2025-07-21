@@ -271,11 +271,11 @@ function NameSwitch1(value){
 
                     var startIndex = responseText.indexOf("PN=");
                     var endIndex = responseText.indexOf("&FW=");
-                    var Sw1 = responseText.substring(startIndex + 4, endIndex);
+                    var PN = responseText.substring(startIndex + 4, endIndex);
 
 	            startIndex = responseText.indexOf("&FW=");
                     endIndex = responseText.indexOf("Sw1=");
-                    var Sw1 = responseText.substring(startIndex + 5, endIndex);
+                    var FW = responseText.substring(startIndex + 4, endIndex);
 	
                     startIndex = responseText.indexOf("Sw1=");
                     endIndex = responseText.indexOf("&Sw2=");
