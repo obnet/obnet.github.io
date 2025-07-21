@@ -268,11 +268,19 @@ function SitSwitch2() {
 <script>
 function NameSwitch1(value){
                     var responseText=value;
-                    
-                    var startIndex = responseText.indexOf("Sw1=");
-                    var endIndex = responseText.indexOf("&Sw2=");
+
+                    var startIndex = responseText.indexOf("PN=");
+                    var endIndex = responseText.indexOf("&FW=");
                     var Sw1 = responseText.substring(startIndex + 4, endIndex);
 
+	            startIndex = responseText.indexOf("&FW=");
+                    endIndex = responseText.indexOf("Sw1=");
+                    var Sw1 = responseText.substring(startIndex + 5, endIndex);
+	
+                    startIndex = responseText.indexOf("Sw1=");
+                    endIndex = responseText.indexOf("&Sw2=");
+                    var Sw1 = responseText.substring(startIndex + 5, endIndex);
+	
                     startIndex = responseText.indexOf("&Sw2=");
                     endIndex = responseText.indexOf("&Sw3=");
                     var Sw2 = responseText.substring(startIndex + 5, endIndex);
