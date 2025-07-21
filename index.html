@@ -332,9 +332,13 @@ function NameSwitch1(value){
                     startIndex = responseText.indexOf("&Sw16=");
 	            endIndex = responseText.indexOf("&Title=");
                     var Sw16 = responseText.substring(startIndex + 6, endIndex);
-                    
-                    startIndex = responseText.indexOf("&Title=");
-                    var Title = responseText.substring(startIndex + 7);
+
+	            startIndex = responseText.indexOf("&Title=");
+	            endIndex = responseText.indexOf("&PN=");
+                    var Sw16 = responseText.substring(startIndex + 7, endIndex);
+	
+                    startIndex = responseText.indexOf("&FW=");
+                    var Title = responseText.substring(startIndex + 3);
                     
                     document.getElementById("pagetitle").innerText = Title;
                     document.getElementById("page-title").innerText = Title;
