@@ -276,6 +276,9 @@ function NameSwitch1(value){
 	            startIndex = responseText.indexOf("&FW=");
                     endIndex = responseText.indexOf("Sw1=");
                     var FW = responseText.substring(startIndex + 4, endIndex);
+
+	              if (PN === "Sw1") {    PN = "";  }
+	              if (FW === "Sw1") {    FW = "";  }
 	
                     startIndex = responseText.indexOf("Sw1=");
                     endIndex = responseText.indexOf("&Sw2=");
