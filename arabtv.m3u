@@ -2,13 +2,13 @@
 
 #EXTINF:-1 tvg-id="Jordan1.il" tvg-logo="https://static.jrtv.gov.jo/resize-width/380/content/x/Mp/1/Poster.png" group-title="", JORDAN 
 https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8
-#EXTINF:-1 tvg-id="Jordan Sport" tvg-logo="https://www.jrtv.gov.jo/static/media/spor-live-channel.151799bd.png" ,Jordan Sport
+#EXTINF:-1 tvg-id="Jordan Sport" tvg-logo="https://www.jrtv.gov.jo/static/media/spor-live-channel.151799bd.png", Jordan Sport
 https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8
-#EXTINF:-1 tvg-id="Roya" tvg-logo="https://backend.roya.tv/imagechanger/Size01Q40R927/images/channels/Uk6vfv1EzBGFuku.png" ,Roya
+#EXTINF:-1 tvg-id="Roya" tvg-logo="https://backend.roya.tv/imagechanger/Size01Q40R927/images/channels/Uk6vfv1EzBGFuku.png", Roya
 https://royatv-live.daioncdn.net/royatv/royatv.m3u8
-#EXTINF:-1 tvg-id="Roya kids" tvg-logo="https://royakids.tv/gallery/logo1.png" ,Roya kids
+#EXTINF:-1 tvg-id="Roya kids" tvg-logo="https://royakids.tv/gallery/logo1.png", Roya kids
 https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids/playlist.m3u8
-#EXTINF:-1 tvg-id="Roya news"  tvg-logo="https://royanews.tv/assets/images/logo.webp" , Roya news
+#EXTINF:-1 tvg-id="Roya news"  tvg-logo="https://royanews.tv/assets/images/logo.webp", Roya news
 https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/extr/py/royanews.m3u8
 #EXTINF:-1 tvg-id="ALMAMLAKAH" tvg-logo="https://www.almamlakatv.com/css/frontcss/images/logo.png" ,ALMAMLAKAH
 https://bcovlive-a.akamaihd.net/4109c7ba30fd4a44ad9afe917c67a8c8/eu-central-1/6415809151001/playlist.m3u8
@@ -597,6 +597,7 @@ https://oscartvland.tv:443/live/111111111111/222222222222/383432.m3u8
 https://oscartvland.tv:443/live/111111111111/222222222222/383433.m3u8
 #EXTINF:-1 tvg-id="Eight3" tvg-logo=" " group-title="Sports",Eight3
 https://oscartvland.tv:443/live/111111111111/222222222222/383434.m3u8
+
 
 
 
