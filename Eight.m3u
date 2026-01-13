@@ -1,0 +1,38 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="Eight1-LOW" tvg-logo=" " group-title="Sports",Eight1 Low
+http://maveniptv.net:80/live/ahmedELmetwally85/ah8759946/283443.m3u8
+#EXTINF:-1 tvg-id="Eight2-LOW" tvg-logo=" " group-title="Sports",Eight2 Low
+http://maveniptv.net:80/live/ahmedELmetwally85/ah8759946/283446.m3u8
+#EXTINF:-1 tvg-id="Eight3-LOW" tvg-logo=" " group-title="Sports",Eight3 Low
+http://maveniptv.net:80/live/ahmedELmetwally85/ah8759946/283449.m3u8
+#EXTINF:-1 tvg-id="Eight1-SD" tvg-logo=" " group-title="Sports",Eight1 SD
+http://maveniptv.net:80/live/ahmedELmetwally85/ah8759946/283452.m3u8
+#EXTINF:-1 tvg-id="Eight2-SD" tvg-logo=" " group-title="Sports",Eight2 SD
+http://maveniptv.net:80/live/ahmedELmetwally85/ah8759946/283455.m3u8
+#EXTINF:-1 tvg-id="Eight3-SD" tvg-logo=" " group-title="Sports",Eight3 SD
+http://maveniptv.net:80/live/ahmedELmetwally85/ah8759946/283458.m3u8
+#EXTINF:-1 tvg-id="Eight1-HD" tvg-logo=" " group-title="Sports",Eight1 HD
+http://maveniptv.net:80/live/ahmedELmetwally85/ah8759946/283461.m3u8
+#EXTINF:-1 tvg-id="Eight2-HD" tvg-logo=" " group-title="Sports",Eight2 HD
+http://maveniptv.net:80/live/ahmedELmetwally85/ah8759946/283464.m3u8
+#EXTINF:-1 tvg-id="Eight3-HD" tvg-logo=" " group-title="Sports",Eight3 HD
+http://maveniptv.net:80/live/ahmedELmetwally85/ah8759946/283467.m3u8
+#EXTINF:-1 tvg-id="Eight1-4k" tvg-logo=" " group-title="Sports",Eight1 4k
+http://maveniptv.net:80/live/ahmedELmetwally85/ah8759946/283470.m3u8
+#EXTINF:-1 tvg-id="Eight2-4k" tvg-logo=" " group-title="Sports",Eight2 4k
+http://maveniptv.net:80/live/ahmedELmetwally85/ah8759946/283473.m3u8
+#EXTINF:-1 tvg-id="Eight3-4k" tvg-logo=" " group-title="Sports",Eight3 4k
+http://maveniptv.net:80/live/ahmedELmetwally85/ah8759946/283476.m3u8
+#EXTINF:-1 tvg-id="Eight1" tvg-logo=" " group-title="Sports",Eight1
+https://oscartvland.tv:443/live/111111111111/222222222222/383432.m3u8
+#EXTINF:-1 tvg-id="Eight2" tvg-logo=" " group-title="Sports",Eight2
+https://oscartvland.tv:443/live/111111111111/222222222222/383433.m3u8
+#EXTINF:-1 tvg-id="Eight3" tvg-logo=" " group-title="Sports",Eight3
+https://oscartvland.tv:443/live/111111111111/222222222222/383434.m3u8
+#EXTINF:-1 tvg-id="Eight1" tvg-logo=" " group-title="Sports",Eight1
+https://oscartvland.tv:443/live/111111111111/222222222222/383432.m3u8
+#EXTINF:-1 tvg-id="Eight2" tvg-logo=" " group-title="Sports",Eight2
+https://oscartvland.tv:443/live/111111111111/222222222222/383433.m3u8
+#EXTINF:-1 tvg-id="Eight3" tvg-logo=" " group-title="Sports",Eight3
+https://oscartvland.tv:443/live/111111111111/222222222222/383434.m3u8
