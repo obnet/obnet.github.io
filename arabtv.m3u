@@ -502,7 +502,8 @@ https://live.saharamedias.net:3317/live/shara24live.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://statres.cdn.mgmlcdn.com/analytics/uploads/164/5ff6eb7f11.png",National_geo
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/national_geo/national_geo_hls_nd/index.m3u8
-#EXTINF:-1 tvg-logo="https://nowcdn.asharq.com/200x0/15115670301691498834.png",الشرق الوثائقية
+
+#EXTINF:-1 tvg-logo="https://nowcdn.asharq.com/200x0/15115670301691498834.png",Asharq
 https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
 
 #EXTINF:-1 tvg-logo="https://asharqdiscovery.com/assets/images/asharq-discover-logo.svg", Asharq Discovery
@@ -528,7 +529,7 @@ https://cnbc-live.akamaized.net/cnbc/master.m3u8
 https://svs.itworkscdn.net/bloomberarlive/bloomberg.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/qxJbQHP/alaraby.png", alaraby
 https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://alqaheranews.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6a2665e0.png&w=1200&q=75", alqaheranews
+#EXTINF:-1 tvg-id="" tvg-logo="https://alqaheranews.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6a2665e0.png&w=1200&q=75", Al Qahera News
 https://fastly.live.brightcove.com/1843520572297019367/eu-central-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXltc3VjLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1MjA1NzIyOTcwMTkzNjcifQ.VDAy1TCwzlhiHq7touUEdjjhIJL8dl-x5KiSVpjOKWc/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/QPP13X6/rtar.jpg", RT Russia Today
 https://rt-arb.rttv.com/live/rtarab/playlist.m3u8
@@ -597,6 +598,7 @@ https://oscartvland.tv:443/live/111111111111/222222222222/383432.m3u8
 https://oscartvland.tv:443/live/111111111111/222222222222/383433.m3u8
 #EXTINF:-1 tvg-id="Eight3" tvg-logo=" " group-title="Sports",Eight3
 https://oscartvland.tv:443/live/111111111111/222222222222/383434.m3u8
+
 
 
 
