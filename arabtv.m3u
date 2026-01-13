@@ -1,6 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="Jordan"tvg-logo="https://cdn.countryflags.com/thumbs/jordan/flag-round-250.png",jordan
-0.0.0.0
 #EXTINF:-1 tvg-id="Jordan1.il" tvg-logo="https://static.jrtv.gov.jo/resize-width/380/content/x/Mp/1/Poster.png" group-title="", الأردنية 
 https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.jrtv.gov.jo/static/media/spor-live-channel.151799bd.png" ,الأردنية الرّياضية
@@ -19,7 +18,6 @@ https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8
 https://ghaasiflu.online/alhqeqa/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.countryflags.com/thumbs/united-arab-emirates/flag-round-250.png",الإمارات العربية المتحدة
-0.0.0.0
 #EXTINF:-1 tvg-id="AbuDhabiTV.uk" tvg-logo="https://statres.cdn.mgmlcdn.com/analytics/uploads/164/5fdc89c729.png" ,أبوظبي
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_tv/abudhabi_tv_hls_nd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://statres.cdn.mgmlcdn.com/analytics/uploads/164/5fdc89e570.png" ,الإمارات
@@ -87,7 +85,6 @@ https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.alshallalchannel.com/wp-content/uploads/2021/01/Alshallal.tv_.jpg" ,الشّلاّل
 https://amg01480-alshallalfze-alshallal-ono-q0hfg.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.countryflags.com/thumbs/bahrain/flag-round-250.png",البحرين
-0.0.0.0
 #EXTINF:-1 tvg-id="" tvg-logo="https://cdn.countryflags.com/thumbs/bahrain/flag-round-250.png",البحرين
 https://5c7b683162943.streamlock.net/live/ngrp:bahraintvmain_all/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://s3.eu-west-1.amazonaws.com//bahrainlive/Channel/636854242859127769a714488e-11d6-4e60-bf4f-f07a0d76cf63.png" ,البحرين الدولية
@@ -99,7 +96,7 @@ https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u
 #EXTINF:-1 tvg-id="" tvg-logo="https://s3.eu-west-1.amazonaws.com//bahrainlive/Channel/636857241081823413fdce3c15-a4eb-4743-a182-a60dfc7de0eb.png" ,البحرين القرآن الكريم
 https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.countryflags.com/thumbs/algeria/flag-round-250.png",الــــجزائر
-0.0.0.0
+
 #EXTINF:-1  tvg-logo="https://raw.githubusercontent.com/hemzaberkane/AlgeriaPicons/main/ENTV1.png" group-title=" TV" ,EPTV 1 الأولى
 
 #EXTINF:-1  tvg-logo="https://raw.githubusercontent.com/hemzaberkane/AlgeriaPicons/main/ENTV2.png" ,Canal Algérie الثانية
@@ -800,6 +797,7 @@ https://oscartvland.tv:443/live/111111111111/222222222222/383432.m3u8
 https://oscartvland.tv:443/live/111111111111/222222222222/383433.m3u8
 #EXTINF:-1 tvg-id="Eight3" tvg-logo=" " group-title="Sports",Eight3
 https://oscartvland.tv:443/live/111111111111/222222222222/383434.m3u8
+
 
 
 
