@@ -1,5 +1,8 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-id="Jordan1.il" tvg-logo="https://static.jrtv.gov.jo/resize-width/380/content/x/Mp/1/Poster.png" group-title="", الأردنية 
+https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8
+
 #EXTINF:-1 tvg-id="MBC 1" tvg-name="MBC 1" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eKBXOKd.png" tvg-country="AE" tvg-url="http://195.154.221.171/epg/guidearab.xml.gz" group-title="MBC",MBC 1 HD
 https://shls-mbcdramaksa-ak.akamaized.net/out/v1/84ab37e99d6e4b16b33c6600f94f6ccb/index_8.m3u8
 #EXTINF:-1 tvg-id="MBC 1 USA" tvg-name="MBC 1 KSA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eKBXOKd.png" tvg-country="AE" tvg-url="http://195.154.221.171/epg/guidearab.xml.gz" group-title="MBC",MBC 1 KSA HD
@@ -2172,6 +2175,7 @@ https://oscartvland.tv:443/live/111111111111/222222222222/383432.m3u8
 https://oscartvland.tv:443/live/111111111111/222222222222/383433.m3u8
 #EXTINF:-1 tvg-id="Eight3" tvg-logo=" " group-title="Sports",Eight3
 https://oscartvland.tv:443/live/111111111111/222222222222/383434.m3u8
+
 
 
 
