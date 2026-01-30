@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+  // ---------- Helpers ----------
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
+  // ---------- Read values ----------
+  const token = localStorage.getItem('token');   // saved previously
+  const cmd   = getQueryParam('cmd');            // command from URL
+
+  // ---------- Validate ----------
+  if (!token) {
+    alert("Token not found in localStorage");
+    window.location.href = "https://obnet.github.io";
+  }
+
+  if (!cmd) {
+    alert("No command provided");
+    window.location.href = "https://obnet.github.io";
+  }
+
+  // ---------- Send to Blynk ----------
+  const url = `https://sgp1.blynk.cloud/external/api/update?token=${token}&v1=${encodeURIComponent(cmd)}`;
+
+  fetch(url)
+    .then(() => {
+      console.log("Command sent:", cmd);
+    })
+    .catch(err => {
+      console.error(err);
+    })
+    .finally(() => {
+      // Redirect back after request
+      window.location.href = "https://obnet.github.io";
+    });
+
+</script>
+</html>
